@@ -18,12 +18,12 @@ public class Main {
                 len = 0;
             }
         }
-        return maxLen;
+        return max(maxLen, len);
     }
 
     public static void main(String[] args) throws IOException {
 
-        Scanner in = new Scanner(new FileReader("resources/test.txt"));
+        Scanner in = new Scanner(new FileReader("resources/varenik.txt"));
         String word;
         int consonantLength;
 
